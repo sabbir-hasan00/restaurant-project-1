@@ -104,7 +104,7 @@ header ul li:hover{
 /* main section design start from here */
 /* banner sectuon design start from here */
 .banner_sec{
-    background-image: url("image/restaurant-1.jpg");
+    background-image: url("restaurant-1.jpg");
    background-attachment:;
    background-position:center;
    background-repeat: no-repeat;
