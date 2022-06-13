@@ -1,0 +1,174 @@
+body{
+    background:;
+}
+
+
+/* for medium device */
+.col-m-1{width: 8.33%;}
+.col-m-2{width: 16.66%;}
+.col-m-3{width: 25%;}
+.col-m-4{width: 33.33%;}
+.col-m-5{width: 41.66%;}
+.col-m-6{width: 50%;}
+.col-m-7{width: 58.33%;}
+.col-m-8{width: 66.66%;}
+.col-m-9{width: 75%;}
+.col-m-10{width: 83.33%;}
+.col-m-11{width: 91.66%;}
+.col-m-12{width: 100%;}
+
+
+
+
+
+/* header section design start from here */
+header{
+ 
+}
+.logo a{
+    text-align:right;
+
+}
+.menu{
+    float:left;
+}
+.menu ul li{
+    width: 20%;
+    float:left;
+    margin: 0px 10px;
+  
+}
+/* header{
+    
+    
+    overflow:hidden ;
+    width:100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+     
+} */
+
+/* header section design ends here */
+
+
+
+/* main section design start from here */
+
+/* banner sectuon design start from here */
+/* banner sectuon design ends here */
+
+
+
+
+
+ 
+
+
+/*  about section start from here */
+
+
+/*  about section ends here  */
+
+
+
+
+/* 
+<!-- menu section start from here --> */
+.m_card_rapper{
+ box-sizing: border-box;
+
+}
+.card{
+    box-sizing: border-box
+    text-align:;
+    width:45%;
+    margin:20px 20px ;
+    
+}
+.card button{
+    width:;
+    
+    font-style: ;
+    font-weight:;
+    columns: black;
+    margin:0px ;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    visibility: ;
+    padding: 15px 15px;
+    font-size:2.5rem;
+    background: rgba(225,255,22,0.5);
+    border-radius:1000px 0px;
+    text-transform: capitalize;
+    text-decoration:;
+    visibility:;
+    text-shadow: 2px 2px 4px red;
+}
+.card img{
+    width: 100%;
+    height:350px;
+   
+}
+/* <!-- menu section ends here --> */
+
+/* main section design ends here */
+
+
+/* 
+<!-- 
+          contacts section starts from here --> */
+
+
+          .c_details{
+            position:relative;
+            
+            }
+            .d_col_1{
+                position: absolute;
+                top: 0;
+                right: 0px;
+            }
+
+            .d_col_2{
+                position:absolute;
+                bottom:;
+                top:150px ;
+                left: 130px;
+            }
+                
+/* 
+          <!-- 
+          contacts section ends here --> */
+
+/* footer section design start from here */
+footer{
+ 
+}
+.f_icon button{
+    padding: 0;
+    margin:20px 0px 0px 30px;
+}
+.f_icon i{
+    margin: auto;
+    padding: ;
+    font-size: 2.5rem;
+}
+
+.f_icon{
+    text-align: left;
+ 
+   
+}
+.f_content{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    margin-right: 20px;
+  
+}
+
+
+
+/* footer section design ends here */

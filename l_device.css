@@ -1,0 +1,109 @@
+body{
+    background:;
+}
+
+
+ 
+
+
+
+/* header section design start from here */
+
+
+
+
+/* for large device */
+.col-lg-1{width: 8.33%;}
+.col-lg-2{width: 16.66%;}
+.col-lg-3{width: 25%;}
+.col-lg-4{width: 33.33%;}
+.col-lg-5{width: 41.66%;}
+.col-lg-6{width: 50%;}
+.col-lg-7{width: 58.33%;}
+.col-lg-8{width: 66.66%;}
+.col-lg-9{width: 75%;}
+.col-lg-10{width: 83.33%;}
+.col-lg-11{width: 91.66%;}
+.col-lg-12{width: 100%;}
+
+
+.logo a{
+    text-align:right;
+
+}
+
+.menu ul li{
+    float: left;
+    padding-left: 0px 40px;
+  
+}
+
+/* header section design ends here */
+
+
+
+/* main section design start from here */
+
+
+/* banner sectuon design start from here */
+/* banner sectuon design ends here */
+
+
+
+
+
+
+
+/*  about section start from here */
+
+
+/*  about section ends here  */
+
+
+
+
+
+/* 
+<!-- menu section start from here --> */
+.m_card_rapper{
+    margin:0px auto;
+
+}
+.card{
+    width:30%;
+    margin: 20px 20px;
+    
+}
+.card img{
+    width: 100%;
+    height:320px;
+   
+}
+
+/* <!-- menu section ends here --> */
+
+
+
+/* contacts section disin start from here */
+
+.d_col_1{
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+/* contacts section disin start from here */
+
+
+/* main section design ends here */
+
+
+
+
+/* footer section design start from here */
+
+
+
+
+
+/* footer section design ends here */

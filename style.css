@@ -1,0 +1,417 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:;
+    font-size:;
+    width: ;
+    box-sizing:  ;
+    overflow: ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #container{
+    max-width: 1000px;
+    box-sizing:border-box ;
+    margin: 0px auto;
+} */
+#row{
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: ;
+
+
+}
+#row::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+[class*="col-"]{
+    width: 100%;
+}
+
+
+
+/* header section design start from here */
+
+header{
+    
+    
+    background:#24a19c;
+    text-align:center;
+    padding: 5px 5px;
+
+    
+}
+.nav_bar{
+ 
+}
+ .logo a{
+    
+     font-size: 50px;
+padding: 10px;
+    text-align:;
+    margin:;
+    color:white;
+    font-size:;
+    border-radius: 50%;
+    border: 2px solid white;
+    text-decoration:none;
+}
+
+
+header ul li{
+    font-size: 1.5rem;
+    list-style-position: inside;
+    list-style-type: none;
+    padding: 10px 0px;
+    background:;
+    margin: 5px 0px;
+    border-radius: 20px;
+    transition: 0.5em;
+}
+header ul li:hover{
+    box-shadow: 2px 2px 6px 4px red;
+    background:  gray;
+    transform: scale(1.1);
+
+
+}
+.menu a{
+    text-decoration: none;
+    color: wheat;
+    text-transform: uppercase;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+
+/* header section design ends here */
+
+
+
+/* main section design start from here */
+/* banner sectuon design start from here */
+.banner_sec{
+    background-image: url("file:///C:/Users/Youtech%20BD/Desktop/resturent/image/restaurant-1.jpg");
+   background-attachment:;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: ;
+   padding:50px;
+}
+.b_content{
+    padding: 150px 0px;
+    text-align: center;
+}
+.b_content h1{
+    width: 300px;
+    margin:20px auto;
+    font-size: 2rem;
+    font-family: 'Sansita Swashed', cursive;
+    background: rgba(225,255,22,0.5);
+    backdrop-filter: blur(5px);
+    padding: 20px 10px;
+    border-radius: 0px 1000px;
+    display:;
+}
+.b_content p{
+    width: 300px;
+    font-size: 1.8rem;
+    margin: 10px auto;
+    padding:20px 15px ;
+    border-radius:100px 0px;
+    background: rgba(225,255,225,0.9);
+    font-family: 'Sansita Swashed', cursive;
+
+}
+.b_content button{
+    background:#000;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+   border-radius: 1000px;
+   padding: 10px 20px;
+   border: 1px solid red;
+   margin-top: 10px;
+}
+.b_content button:hover{
+    box-shadow: 2px 2px 10px 8px red;
+}
+.b_content button a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight:600;
+    font-style: bold;
+}
+/* banner sectuon design ends here */
+
+
+
+ 
+
+
+/*  about section start from here */
+.a_content{
+    padding: 20px 20px;
+    text-align: center;
+}
+.a_content h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Sansita Swashed', cursive;
+    margin-bottom:10px;
+}
+.a_content hr{
+margin: auto;  
+ width: 300px;
+    border: 10px dotted gray;
+    border-bottom: none;
+}
+.a_content p{
+    font-size: 1.8rem;
+    text-align:center;
+    line-height: 2.5rem;
+    text-indent: 50px;
+    padding: 20px 20px;
+}
+
+/*  about section ends here  */
+
+/* 
+<!-- menu section start from here --> */
+#menu{
+ background:;
+}
+.m_card_rapper h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Sansita Swashed', cursive;
+    margin-bottom:10px;
+    padding: 10px 0px;  
+}
+
+.m_card_rapper hr{
+    margin: auto;  
+ width: 300px;
+    border: 10px dotted gray;
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+.card{
+    background:  rgba(225,255,22,0.9);
+    margin:20px 10px ;
+    padding:0;
+    text-align: center;
+    border: 2px solid rgba(46, 175, 46, 0.9);
+    border-radius: 20px;
+    padding-bottom:20px;
+    transition: .5s;
+    position: relative;
+}
+.card:hover{
+transform: scale(1.1);
+}
+.card:hover button{
+  visibility: visible;
+  cursor: pointer;
+    }
+.card img{
+    width: 100%;
+    height:400px;
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+    display:block;
+}
+.card h3{
+  
+    font-size:2rem;
+    font-weight:800;
+    font-style:italic;
+    font-family: 'Codystar', cursive;
+    padding:10px 0px;
+    text-shadow: 1px 1px 2px black;
+    background:green;
+}
+.card p{
+    font-size:3rem;
+    font-family: 'Italianno', cursive;
+    color: green;
+    line-height: 3rem;
+}
+.card button{
+    
+    font-style: bold;
+    font-weight: 800;
+    columns: black;
+    margin:0px ;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    visibility: ;
+    padding: 20px 20px;
+    font-size: 3rem;
+    background: rgba(225,255,22,0.5);
+    border-radius: 1000px 0px;
+    text-transform: capitalize;
+    text-decoration:;
+    visibility:hidden;
+    text-shadow: 2px 2px 4px red;
+}
+#menu::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* <!-- menu section ends here --> */
+
+
+/* main section design ends here */
+
+/* 
+<!-- 
+          contacts section starts from here --> */
+#contacts{
+    display:;
+    background:;
+    overflow:;
+}
+
+#contacts h1{
+
+
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Sansita Swashed', cursive;
+        margin-bottom:10px;
+        padding: 10px 0px;  
+    
+    
+
+}
+
+#contacts hr{
+    margin: auto;  
+ width: 300px;
+    border: 10px dotted gray;
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+.c_details{
+    text-align: center;
+position:;
+
+}
+.map iframe{
+    width:100%;
+    height:550px;
+}
+.d_col_1{
+    text-align: right;
+    margin-bottom:50px;
+    position: ;
+    right: 0;
+    top: 0;
+}
+.d_col_2{
+    text-align: left
+}
+.d_col_1 h3{
+    text-transform:;
+    margin-bottom: 15px;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.d_col_1 a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Codystar', cursive;
+    color: red;
+    z-index: ;
+    padding-right: 10px;
+}
+
+.d_col_2{
+position: ;
+top: 0;
+}
+.d_col_2 h3{
+    color:red;
+    text-transform:capitalize;
+    margin-bottom: 15px;
+    font-size:2rem;
+    font-family: 'Roboto', sans-serif; 
+
+}
+.d_col_2 ul li{
+    color: #000;
+    text-transform: capitalize;
+    list-style-position: inside;
+    font-size:1.2rem;
+    padding: 10px 10px;
+}
+
+/* 
+          <!-- 
+          contacts section ends here --> */
+#contacts::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* footer section design start from here */
+
+footer{
+    
+    background: #000;
+    text-align: center;
+}
+.f_icon a{
+    text-decoration: none;
+    color: red;
+}
+.f_icon button{
+    border-radius:100% ;
+    border: 1px solid red;
+    margin: 15px ;
+    transition: .5s;
+
+}
+.f_icon button:hover {
+    transform:scale(1.4);
+    box-shadow: 0px 0px 10px 2px lightblue;
+}
+.f_icon i{
+    font-size:2rem ;
+    width:;
+    display:;
+    padding:10px;
+    text-align: center;
+    border: ;
+    border-radius:;
+}
+.f_content{
+    font-size:2rem;
+    color: white;
+    font-family: 'Italianno', cursive;
+    margin-bottom: 10px;
+}
+
+
+/* footer section design ends here */
